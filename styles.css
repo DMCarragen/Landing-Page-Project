@@ -43,6 +43,21 @@ footer {
     padding: 5%;
 }
 
+ul {
+    display: flex;
+    max-width: 200px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+li {
+    font-size: 14px;
+    padding: 3px;
+    text-align: left;
+}
+
 .logo {
     display: flex;
     justify-content: left;
@@ -146,14 +161,33 @@ footer {
     display: flex;
     justify-content: center;
     gap: 100px;
-    padding: 200px;
+    padding: 100px;
 }
 
 .package {
     max-width: 200px;
+
 }
 
+.packageLogo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
 
+.packageName {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+.packageInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1F2937;
+    font-size: 18px;
+}
 
 
 /* Clients Review */
